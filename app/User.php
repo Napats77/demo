@@ -1,5 +1,5 @@
 <?php
-
+// 
 namespace App;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
@@ -8,7 +8,7 @@ use Illuminate\Notifications\Notifiable;
 
 class User extends Authenticatable
 {
-    
+
     use Notifiable;
 
     /**
